@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "dev-mongo": "nodemon mongo-test.js"
   },
   "keywords": [
     "blog",
@@ -15,7 +16,8 @@
   "author": "Pavel Silber",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
