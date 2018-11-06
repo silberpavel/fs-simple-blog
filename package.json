@@ -1,0 +1,22 @@
+{
+  "name": "fs-blog",
+  "version": "1.0.0",
+  "description": "Simple fullstack blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "blog",
+    "fullstack",
+    "nodejs"
+  ],
+  "author": "Pavel Silber",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
